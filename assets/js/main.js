@@ -89,3 +89,7 @@ sr.reveal(".qualification__footer-text, .contact__content", {
 });
 
 sr.reveal(".qualification__footer .btn, .contact__btn", { origin: "right" });
+
+// Scroll to top button
+const scrollBtn = document.querySelector(".scroll_to_top_btn");
+window.addEventListener("scroll", () => window.scrollY > 1000 ? scrollBtn.style.display = "block" : scrollBtn.style.display = "none");

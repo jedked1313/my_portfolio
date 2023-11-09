@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <!-- Title Icon -->
+    <link rel="shortcut icon" href="assets/img/portfolio.svg">
+    <title>Personal Portfolio</title>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
 
     <!-- Remixicons-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -18,10 +20,8 @@
     <!-- SwiperJS CSS -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
-
 </head>
 
 <body>
@@ -29,7 +29,7 @@
     <!-- Header -->
     <header id="header" class="header">
         <div class="container">
-            <nav class="nav">
+            <nav class="nav" id="nav">
                 <a href="index.html" class="nav__brand">
                     <i class="ri-code-s-slash-line"></i>Portfolio
                 </a>
@@ -292,32 +292,29 @@
                     <div class="swiper-wrapper">
                         <!-- testimonial 1 = -->
                         <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial1.jpg" class="testimonial__img">
+                            <img src="assets/img/testimonial3.svg" class="testimonial__img">
                             <div class="testimonial__content">
-                                <p class="testimonial__description"> It provides a convenient way for potential clients
-                                    to view your work while also allowing you to expand on your skills and services.</p>
-                                <h3 class="testimonial__name">IEEE - Mashreq University</h3>
-                                <span class="testimonial__occupation">Technical team</span>
+                                <h2 class="testimonial__title">IEEE</h2>
+                                <h3 class="testimonial__name">Technical team - Mashreq University</h3>
+                                <span class="testimonial__occupation">2022 May - 2022 December</span>
                             </div>
                         </div>
                         <!--======== testimonial 2 ============ -->
                         <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial2.jpg" class="testimonial__img">
+                            <img src="assets/img/testimonial1.svg" class="testimonial__img">
                             <div class="testimonial__content">
-                                <p class="testimonial__description"> It provides a convenient way for potential clients
-                                    to view your work while also allowing you to expand on your skills and services.</p>
-                                <h3 class="testimonial__name">Hult prize - Mashreq University</h3>
-                                <span class="testimonial__occupation">Event team</span>
+                                <h2 class="testimonial__title">Hult prize competition</h2>
+                                <h3 class="testimonial__name">Event organizing team - Mashreq University</h3>
+                                <span class="testimonial__occupation">2022 February - 2022 March</span>
                             </div>
                         </div>
                         <!--======== testimonial 3 ====== -->
                         <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial3.jpg" class="testimonial__img">
+                            <img src="assets/img/testimonial2.svg" class="testimonial__img">
                             <div class="testimonial__content">
-                                <p class="testimonial__description"> It provides a convenient way for potential clients
-                                    to view your work while also allowing you to expand on your skills and services.</p>
-                                <h3 class="testimonial__name">AIA Technology</h3>
-                                <span class="testimonial__occupation">Technical assistant</span>
+                                <h2 class="testimonial__title">AIA Technology Company</h2>
+                                <h3 class="testimonial__name">Technical assistant</h3>
+                                <span class="testimonial__occupation">2023 January - 2023 April</span>
                             </div>
                         </div>
                     </div>
@@ -380,7 +377,9 @@
             <p class="footer__copyright">&copy; 2023 Copyright. All Rights Reserved</p>
         </div>
     </footer>
-
+    <a href="#hero" class="scroll_to_top_btn">
+        <i class="ri-arrow-up-line"></i>
+    </a>
     <!-- SwiperJS  -->
     <script src="assets/js/swiper-bundle.min.js"></script>
 

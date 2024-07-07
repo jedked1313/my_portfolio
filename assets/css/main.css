@@ -487,6 +487,8 @@ body {
 .project__img {
   margin-bottom: 2rem;
   border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  height: 50%;
 }
 
 .project__title {
